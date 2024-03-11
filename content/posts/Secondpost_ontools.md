@@ -5,4 +5,6 @@ draft = true
 +++
 
 ## My Second post
-This is my second posts to check the workflow is working
+This is my second posts to check the workflow is working. 
+
+Adding another line
