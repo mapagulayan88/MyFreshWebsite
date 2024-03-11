@@ -1,0 +1,31 @@
+---
+baseURL: https://example.org/
+languageCode: en-us
+title: My New Hugo Site
+theme: ["PaperMod"]
+paginate: 4
+defaultContentLanguage: en
+
+enableRobotsTXT: true
+buildDrafts: true # 
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+menu:
+  main:
+    - identifier: home
+      name: home
+      url: /
+      weight: 1
+    - identifier: posts
+      name: posts
+      url: /posts/
+      weight: 3
