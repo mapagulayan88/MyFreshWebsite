@@ -1,5 +1,5 @@
 ---
-baseURL: https://example.org/
+baseURL: https://kind-glacier-0d2aca200.5.azurestaticapps.net
 languageCode: en-us
 title: My New Hugo Site
 theme: ["PaperMod"]
